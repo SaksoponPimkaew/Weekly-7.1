@@ -3,6 +3,7 @@
 int main()
 {
     double a, b;
+    printf("Enter A & B :");
     scanf_s("%lf %lf", &a, &b);
     a = a - b;
     b = a + b;
